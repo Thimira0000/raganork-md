@@ -16,7 +16,7 @@ const settingsMenu = [
     {title: "Admin sudo acces mode (group commands only)", env_var: "ADMIN_ACCESS"},
     {title: "With & without handler mode", env_var: "MULTI_HANDLERS"},
     {title: "Auto reject calls", env_var: "REJECT_CALLS"},
-    {title: "Always online", env_var: "ALWAYS_ONLINE"},
+    {title: "Always online", env_var: "ALWAYS_OFFLINE"},
     {title: "PM Auto blocker", env_var: "PMB_VAR"},
     {title: "Disable bot in PM", env_var: "DIS_PM"}
   ]
@@ -58,8 +58,8 @@ module.exports = {
     NOT_ALLOWED: process.env.ALLOWED || '91,94,212',
     CHATBOT: process.env.CHATBOT || 'off',
     HANDLERS: process.env.HANDLERS || '.,',
-    STICKER_DATA: process.env.STICKER_DATA || "Raganork",
-    BOT_NAME: process.env.BOT_NAME || 'Raganork',
+    STICKER_DATA: process.env.STICKER_DATA || "ᴘᴀɴᴅᴀ-ʙʙʜ",
+    BOT_NAME: process.env.BOT_NAME || 'ᴘᴀɴᴅᴀ-ʙʙʜ',
     AUDIO_DATA: process.env.AUDIO_DATA === undefined || process.env.AUDIO_DATA === "private" ? 'ꪶ͢٭𝑺𝜣𝑼𝑹𝛢𝑽𝑲𝑳¹¹ꫂ;Raganork MD bot;https://i.imgur.com/P7ziVhr.jpeg' : process.env.AUDIO_DATA,
     TAKE_KEY: process.env.TAKE_KEY || '',
     MODE: process.env.MODE || 'private',
